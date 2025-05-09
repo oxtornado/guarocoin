@@ -8,41 +8,29 @@
     <title>Guarocoin - Block Chain que no te cobra por respirar</title> 
 </head>
     <body class="bg-green-50"> 
-        <nav class="pt-2">
-            <div class="w-full flex justify-center -gap-20">
-                <div class="bg-gray-100 rounded-full p-1 flex max-w-md w-full justify-around border border-gray-300">
-                  <a href="#" class="px-5 py-2 text-sm rounded-full whitespace-nowrap flex items-center justify-center hover:bg-gray-200">
-                    ¿Que es?
-                  </a>
-                  <a href="#" class="px-5 py-2 text-sm rounded-full whitespace-nowrap flex items-center justify-center hover:bg-gray-200">
-                    Como usarla
-                  </a>
-                  <a href="#" class="px-5 py-2 text-sm rounded-full whitespace-nowrap flex items-center justify-center hover:bg-gray-200">
-                    Roadmap
-                  </a>
-                  <a href="#" class="px-5 py-2 text-sm rounded-full whitespace-nowrap flex items-center justify-center hover:bg-gray-200">
-                    FAQ
-                  </a>
-                </div>
-              </div> 
-        </nav>
-        <header>
-            <div class="">
-                <svg href="https://www.clker.com/cliparts/a/f/e/8/14489113331706856528green-coin-stack.png" class=""></svg>
-            </div>
-            <div class="flex flex-col items-center justify-center m-40">
-                <h1 class="text-center text-6xl font-bold mt-10">
-                    El futuro no se espera,
-                    <br>
-                    <span class="text-teal-950">
-                        se toma a shots
-                    </span>
-                </h1>
-                <p class="text-center text-2xl mt-5 font-medium text-teal-950">
-                    Tu plata, tu ritmo. Como un Rappi, pero sin comisión
-                </p>
-            </div>
-        </header>
+<header class="relative h-screen">
+    <nav class="absolute top-5 left-0 w-full flex justify-center z-10">
+        <div class="bg-gray-100 rounded-full p-1 flex max-w-md w-full justify-around border border-gray-300">
+            <a href="#" class="flex items-center justify-center px-5 py-2 text-sm rounded-full hover:bg-gray-200">¿Qué es?</a>
+            <a href="#" class="flex items-center justify-center px-5 py-2 text-sm rounded-full hover:bg-gray-200">Cómo usarla</a>
+            <a href="#" class="flex items-center justify-center px-5 py-2 text-sm rounded-full hover:bg-gray-200">Roadmap</a>
+            <a href="#" class="flex items-center justify-center px-5 py-2 text-sm rounded-full hover:bg-gray-200">FAQ</a>
+        </div>
+    </nav>
+    <div class="relative flex flex-col items-center justify-center h-full">
+        <img src="./img/backgroung-hero.jpg" alt="imagen hero" class="object-cover size-full">
+        <div class="absolute text-center px-5">                  
+            <h1 class="text-6xl font-bold mt-10 bg-gradient-to-r from-black via-stone-600 to-black inline-block text-transparent bg-clip-text"> 
+                El futuro no se espera,<br>
+                <span class="bg-gradient-to-r from-black via-teal-900 to-green-950 inline-block text-transparent bg-clip-text"> 
+                    se toma a shots
+                </span>
+            </h1>
+            <p class="text-2xl mt-5 font-medium text-teal-950">Tu plata, tu ritmo. Como un <span class="hover:cursor-crosshair hover:underline">Rappi, pero sin comisión</span></p> 
+        </div>
+    </div>
+</header>
+
 
 
     </body>
