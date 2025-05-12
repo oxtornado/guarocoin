@@ -6,14 +6,134 @@
     <link rel="stylesheet" href="./css/output.css">
     <title>Guarocoin -  Tecnología blockchain con sabor a empanada</title>
 </head>
-    <body>
-        <div class="bg-[url(/vishal-bansal-6RtXaFnqElk-unsplash.jpg)] 
-        w-full h-screen bg-cover bg-fixed bg-center bg-no-repeat">
-            <h1></h1>
+    <body class="relative bg-guarocoin-background scroll-smooth">
+        <div class="absolute z-10 flex justify-evenly w-full pt-3">
+            <a class="text-white font-medium" href="/">Quienes somos</a>
+            <a class="text-white font-medium" href="/">Servicio</a>
+            <a class="text-white font-medium" href="/">Contacto</a>
+        </div>
+        <div class="
+        transition-duration-1000 transition-timing-function-ease-in-out
+        mask-b-from-60% mask-b-to-100%
+        bg-[url(/vishal-bansal-6RtXaFnqElk-unsplash.jpg)] 
+        grid place-content-center
+        w-full h-screen bg-cover bg-fixed bg-center bg-no-repeat
+        ">
+            <div class="-top-2">
+                <h1 class="text-9xl font-bold text-white text-shadow-lg text-center">
+                    GUAROCOIN
+                </h1>
+                <p class="text-3xl font-medium text-white text-shadow-lg/30 text-center">
+                    El futuro no espera, se toma a shots
+                </p>
+            </div>
         </div>
 
-        <div class="h-screen">
-
+        <div class="w-full h-screen flex flex-col items-center justify-center ">
+            <div>
+                <h1 class="text-white font-bold text-4xl p-10 text-center">¿Por que Guarocoin?</h1>
+            </div>
+            <div class="grid grid-cols-3 grid-rows-2 gap-4 w-3/5 h-1/2 place-items-center"> 
+                <div class="
+                bg-gradient-to-br from-guarocoin-600 to-guarocoin-300  
+                w-full h-full rounded-lg col-span-2 flex flex-col items-start justify-center pl-6 cursor-crosshair
+                transition delay-50 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-guarocoin-300
+                "> 
+                    <h1 class="text-white text-4xl font-bold">
+                        ¿Qué es Guarocoin?
+                    </h1>
+                    <p class="text-white text-2xl">
+                        Creada para quienes creen en el poder del barrio y la tecnología
+                    </p>
+                </div>
+                <div class="
+                bg-gradient-to-br from-guarocoin-100 to-guarocoin-200  
+                bg-bento-background-two w-full h-full rounded-lg flex flex-col items-start justify-center pl-6 cursor-crosshair
+                transition delay-50 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-guarocoin-background
+                ">
+                    <h1 class="text-white text-4xl font-bold">
+                        Igual que el Aguardiente
+                    </h1>
+                    <p class="text-white text-2xl">
+                        se comparte, se celebra, y une a la gente
+                    </p>                
+                </div>
+                <div class="
+                bg-gradient-to-br from-guarocoin-600 to-guarocoin-200   
+                bg-bento-background-three w-full h-full rounded-lg row-span-2 col-span-3 flex flex-col items-start justify-center pl-6 pr-6 pt-2 cursor-crosshair
+                transition delay-50 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-guarocoin-200
+                ">
+                    <h1 class="text-white text-4xl font-bold">
+                        Pensada para pagos rápidos, seguros y con ese toque criollo que ningún Bitcoin tiene.
+                    </h1>
+                </div> 
+            </div>
         </div>
+
+        <div class="flex flex-row items-center justify-center mb-20 px-96 gap-4">
+                <h1 class="text-white text-7xl font-bold text-left">
+                    Tecnología blockchain con sabor a empanada. Sin bancos, sin cuentos, solo poder criollo 
+                </h1>
+            <div class="flex flex-row items-center justify-centerw-full">
+                <div class="w-full flex flex-col items-center justify-center">
+                    <h1 class="text-white text-2xl font-medium ">
+                        Sé parte de la revolución financiera criolla. Déjanos tu contacto y recibe 50 Guaros gratis
+                    </h1>
+                    <form class="mt-10 max-w-sm mx-auto">
+                        <div class="w-96 mb-3">
+                            <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombre</label>
+                            <input type="text" id="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="¿Como te dice tu combo?" required />
+                        </div>                    
+                        <div class="w-96 mb-3">
+                            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Correo electrónico</label>
+                            <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Deja tu correo (tranqui, no mandamos cadenas)" required />
+                        </div>
+                        <div class="mb-5">
+                            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Region</label>
+                            <input type="text" id="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="¿Eres de Antioquia, el Chocó o la Nevera? Cuéntanos" required />
+                        </div>
+                        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">¡Quiero mis Guaros ya!</button>
+                    </form>
+                </div>
+            </div>          
+        </div>
+
+        <div class="relative flex flex-col mt-32 pb-3">
+            <div class="w-full flex justify-center py-4">
+                <div class="w-full max-w-6xl flex justify-between px-4">
+                    <p class="text-white">Guarocoin</p> 
+                    <div class="flex gap-6">
+                        <p class="text-white">
+                            <a href="#">Github</a>
+                        </p>    
+                        <p class="text-white">
+                            <a href="#">Email</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="./js/script.js"></script>
     </body>
 </html>
