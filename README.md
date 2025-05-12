@@ -3,7 +3,7 @@
 
 #  🪙 Guarocoin – Cripto-moneda con Sabor Colombiano
 
-  
+![guarocoin](https://github.com/user-attachments/assets/926e4c4c-cce8-4b3a-a0f2-36856c3a2869)
 
 ##  ¿Qué es?
 
