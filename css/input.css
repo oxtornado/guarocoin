@@ -1,1 +1,11 @@
+@plugin "@midudev/tailwind-animations";
 @import "tailwindcss";
+
+@theme {
+    --color-guarocoin-background: #170312;
+    --color-guarocoin-400: #11270B;
+    --color-guarocoin-300: #243119;
+    --color-guarocoin-200: #058E3F; 
+    --color-guarocoin-100: #069E2D;
+    --color-guarocoin-gradient-bg: bg-gradient-radial from-[var(--color-guarocoin-background)] to-[var(--color-guarocoin-200)]; 
+}
